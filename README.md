@@ -35,3 +35,17 @@
 - jscript
 ## ordered 
 1. ms excel
+
+2 .ms word
+
+## python code
+
+ a=1
+ 
+ b=2
+ 
+ c=a+b
+ 
+ print(c)
+ 
+
