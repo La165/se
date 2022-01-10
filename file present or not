@@ -1,0 +1,9 @@
+echo "enter a file name"
+read a
+if  [ -f $a ]
+then
+echo "file is present"
+else
+echo " file is not present"
+fi
+tr '[a-z]' '[A-Z]' < $a
