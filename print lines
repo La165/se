@@ -1,0 +1,9 @@
+echo 'enter filename'
+read file
+echo 'enter starting line number'
+read s
+echo 'enter the ending line number'
+read e
+sed -n $s,$e\p $file | cat>newfile
+cat newfile
+
