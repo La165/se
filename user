@@ -1,0 +1,11 @@
+echo "who are you?"
+read user
+echo $user
+name=$(who ami)
+if [ $user==$name ]
+then
+top -u $user
+else
+echo " not logged in"
+fi
+
