@@ -14,3 +14,8 @@ hour=`expr $loginhours-$hournow`
 min=`expr $loginminutes-$minnow`
 echo " $name is working since $hour hrs $min minutes"
 ~
+or 
+echo 'enter username'
+read user
+last $user
+
