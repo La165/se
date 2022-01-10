@@ -1,0 +1,14 @@
+echo "enter the basic salary"
+read bsal
+if [ $bsal -lt 1500 ]
+then
+hra=`echo $bsal\*10/100|bc`
+da=`echo $bsal\*90/100|bc`
+else
+hra=500
+da=` echo $bsal\*98/100|bc`
+fi
+gs=`echo $bsal+$hra+$da|bc`
+echo "DA $da"
+echo "HRA $hra"
+echo "gross salary $gs"
